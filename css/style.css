@@ -143,6 +143,12 @@ nav a:hover {
 
 /* Step 4: Write selector/rule property to style the container */
 
+.overview p{
+  font-size: 20px;
+  line-height: 1;
+  padding: 50px 0;
+  text-align: center;
+}
 
 .container{
   display: grid;
@@ -242,8 +248,10 @@ first div in the grid  and place it in the grid. */
  /* Step 8: Write the selector/rule property to style the .text-block class. */
 
 .text-block {
+  display:grid;
+  align-self:center;
+  justify-self: center;
   text-align: center;
-  margin: auto;
 }
 
 
@@ -278,57 +286,67 @@ first div in the grid  and place it in the grid. */
 
   .about {
     grid-column-start: 3;
-    grid-column-end: 6;
+    grid-column-end: 5;
     height: 500px;
     width:auto;
   }
 
   .clients {
     grid-column-start: 3;
-    grid-column-end: 6;
+    grid-column-end: 5;
     height: 500px;
     width:auto;
   }
 
   .method-image {
     grid-column-start: 3;
-    grid-column-end: 6;
+    grid-column-end: 5;
   }
 
   .contact-image {
     grid-column-start: 3;
-    grid-column-end: 6;
+    grid-column-end: 5;
   }
 
   .method {
     grid-column-start: 2;
-    grid-column-end: 5;
+    grid-column-end: 4;
     height: 500px;
     width:auto;
   }
 
   .contact {
     grid-column-start: 2;
-    grid-column-end: 5;
+    grid-column-end: 4;
     height: 500px;
     width:auto;
   }
 
   .about-image {
     grid-column-start: 2;
-    grid-column-end: 5;
+    grid-column-end: 4;
   }
 
   .clients-image {
     grid-column-start: 2;
-    grid-column-end: 5;
+    grid-column-end: 4;
   }
 
    /* Step 13:Write the selector/rule property to update the .text-block class */
 
   .text-block {
     max-height: 250px;
+    display:grid;
+    justify-self:center;
+    align-self: center;
   }
-}
+
+  .overview p{
+    font-size: 30px;
+    line-height: 1;
+    padding: 50px 0;
+    text-align: center;
+  }
+  }
 
 
